@@ -1,0 +1,54 @@
+        .irp-box { 
+            border-inline-start: 3px solid var(--irp-accent, currentColor);
+            padding: 0.75rem 1rem; margin: 1.5rem 0; box-shadow: none; background: transparent;
+        }
+        .irp-label {
+            font-size: .85rem; color: var(--irp-muted, #666); display: inline-block; margin-bottom: .5rem;
+        }
+        .irp-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: .25rem; }
+        .irp-list li { margin: 0; padding: 0; } 
+        .irp-list a { text-decoration: none; } 
+        .irp-list a:hover, .irp-list a:focus { text-decoration: underline; outline: none; }
+
+ 
+
+
+.irp-variant-card .irp-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 12px;
+}
+
+.irp-card {
+  display: grid;
+  grid-template-columns: 84px 1fr;
+  gap: 10px;
+  align-items: center;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  transition: border-color .2s, transform .06s;
+  background: #fff;
+}
+.irp-card:hover { border-color: var(--irp-accent); transform: translateY(-1px); }
+.irp-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.irp-no-thumb { width: 100%; height: 84px; background: #f3f4f6; }
+
+.irp-meta { padding: 6px 8px 6px 0; }
+.irp-title { font-size: 14px; margin: 0 0 6px; line-height: 1.4; }
+.irp-date { font-size: 12px; color: #6b7280; }
+
+.irp-variant-list .irp-list { margin: 0; padding: 0 10px 8px; list-style: none; }
+.irp-variant-list .irp-list li { margin: 8px 0; }
+.irp-link {
+  text-decoration: none;
+  color: #111827;
+  border-bottom: 1px dashed color-mix(in srgb, var(--irp-accent) 40%, transparent);
+}
+.irp-link:hover { color: var(--irp-accent); border-bottom-color: var(--irp-accent); }
+
+/* RTL care (وردپرس فارسی معمولاً RTL است) */
+html[dir="rtl"] .irp-card { grid-template-columns: 1fr 84px; }
+html[dir="rtl"] .irp-meta { padding: 6px 0 6px 8px; }
