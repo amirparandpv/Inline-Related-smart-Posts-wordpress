@@ -1,5 +1,31 @@
 # 🧩 Inline Related Posts (IRP)
 
+**Inline Related Posts (IRP)** is a lightweight and smart WordPress plugin that automatically displays **inline related posts** within your content.  
+It selects relevant posts using simple and effective algorithms and inserts them at specific points in the content to **increase user engagement** and **improve on-site SEO**.
+
+---
+
+## ✨ Features
+- 🔹 Automatically displays related posts inline within content  
+- 🔹 Supports multiple post types (posts, pages, WooCommerce products, etc.)  
+- 🔹 Filter by categories and tags  
+- 🔹 Two display styles: Grid (cards) and List (simple)  
+- 🔹 Customizable number of posts and paragraph position  
+- 🔹 Theme color and custom CSS class support  
+- 🔹 Shortcode for manual insertion anywhere in the content  
+- 🔹 Compatible with Classic Editor and Gutenberg  
+- 🔹 Lightweight and optimized code  
+
+---
+
+## ⚙️ Installation
+
+1. Upload the plugin folder to:  
+
+
+
+# 🧩 Inline Related Posts (IRP)
+
 **Inline Related Posts (IRP)** یک افزونهٔ سبک و هوشمند برای وردپرس است که مطالب مرتبط را به‌صورت **درون‌متن (Inline)** در نوشته‌ها و برگه‌ها نمایش می‌دهد.  
 این افزونه با الگوریتم‌های ساده و مؤثر، محتوای مرتبط را انتخاب کرده و در نقاط مشخصی از متن درج می‌کند تا **مدت‌زمان ماندن کاربر در سایت** افزایش یابد و **بهبود سئوی داخلی** حاصل شود.
 
