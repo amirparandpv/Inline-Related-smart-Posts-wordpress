@@ -1,11 +1,17 @@
 <?php
 /**
  * Plugin Name: Inline Related Posts (IRP)
+ * Plugin URI: https://github.com/amirparandpv/inline-related-posts
  * Description: نمایش مطالب مرتبط به‌صورت درون‌متن با تنظیمات کامل (پست‌تایپ، دسته‌ها، استایل، تعداد، الگوریتم، محل درج و دکمه ویرایشگر).
  * Version: 1.0.0
- * Author: You
+ * Author: amirparand.ir
+ * Author URI: https://amirparand.ir
  * Text Domain: irp
+ * Domain Path: /languages
+ * License: GPLv2 or later
+ * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  */
+
 
 if (!defined('ABSPATH')) exit;
 
@@ -381,3 +387,4 @@ add_action('admin_print_footer_scripts', function($hook = '') {
         </script>
     <?php endif;
 });
+
